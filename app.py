@@ -73,7 +73,9 @@ if __name__ == "__main__":
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
-
+#  for remote sever 
+        remote_server_uri="https://dagshub.com/api/v1/repo-buckets/s3/srivardhan-kondu"
+        mlflow.set_tracking_uri(remote_server_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store

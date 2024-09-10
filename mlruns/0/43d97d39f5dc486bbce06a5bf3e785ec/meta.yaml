@@ -1,0 +1,15 @@
+artifact_uri: file:///S:/Machine%20Learning/MLFLOW/mlruns/0/43d97d39f5dc486bbce06a5bf3e785ec/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43d97d39f5dc486bbce06a5bf3e785ec
+run_name: smiling-whale-216
+run_uuid: 43d97d39f5dc486bbce06a5bf3e785ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725977352905
+status: 1
+tags: []
+user_id: srivardhan-kondu
